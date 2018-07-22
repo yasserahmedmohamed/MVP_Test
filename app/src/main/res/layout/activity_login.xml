@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivityMVP.LoginActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/loginactivity_fisrtname_edittext"
+        android:hint="first name"
+        android:layout_height="50dp" />
+    <EditText
+        android:hint="last name"
+        android:id="@+id/loginactivity_lastname_edittext"
+        android:layout_below="@id/loginactivity_fisrtname_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/loginactivity_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginactivity_lastname_edittext"
+        android:text="Login"
+        />
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
